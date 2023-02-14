@@ -1,0 +1,15 @@
+li {
+    color: red;
+}
+
+#naslov {
+    color: orange;
+}
+
+#musko {
+    border: 2px blue solid;
+}
+
+#zensko {
+    border: 2px red solid;
+}
