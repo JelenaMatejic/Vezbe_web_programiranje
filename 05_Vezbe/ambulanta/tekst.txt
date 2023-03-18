@@ -1,0 +1,39 @@
+Vežbanje:
+- connection.php
+- create_table.php
+- insert_query.php
+- select_query.php
+
+tabela pacijenti od polja treba da sadrži:
+- id INT, AUTO INCREMENT, NOT NULL, PRIMARI KEY
+- ime VARCHAR(50), NOT NULL
+- prezime VARCHAR(50), NOT NULL
+- god_rodj INT, NOT NULL
+- visina FLOAT, NOT NULL
+- tezina FLOAT, NOT NULL 
+
+1. Selektovati bazu ambulanta
+2. Kreirati fajl index.php u kojem je potrebno ispisati naslov i u njemu tekst “Ambulanta”. 
+3. Na stranici index.php kreirati linkove koje je potrebno stilizovati kao dugmiće. 
+   Klikom na svaki link otvara se posebna .php koja predstavlja jedan zadatak sa sledećeg spiska zadataka. 
+   Na svakoj stranici, kreirati link ka početnoj index.php stranici.
+
+a) sortiranje_pacijenata.php
+    Prikazati tri tabele sa svim pacijentima iz baze podataka "ambulanta".
+    U prvoj su pacijenti sortirani po visini, u opadajućem redosledu.
+    U drugoj su pacijenti sortirani po težini, u opadajućem redosledu.
+    U trećoj su pacijenti sortirani po godini rođenja, od najstarijeg do najmlađeg.
+    Iznad svake tabele napisati naslov koji kazuje šta se u tabeli nalazi.
+
+b) pacijenti_1970_1990.php
+    Prikazati pacijente rođene izmedju 1970. i 1990. godine.
+
+c) natprosecno_teski.php
+    Prikazati sve natprosečno teške pacijente.
+
+d) maloletni.php
+    Prikazati sve maloletne pacijente. 
+
+e) bmi.php
+    Prikazati sve pacijente sa nezdravom težinom (BMI vrednost je manja od 18.5 ili veća od 30).
+    BMI = tezina / visina_u_metrima^2
